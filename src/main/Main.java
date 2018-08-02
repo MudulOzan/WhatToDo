@@ -10,6 +10,6 @@ public class Main {
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mainFrame.setVisible(true);
 		ListManager list = new ListManager();
-		mainFrame.add(list.add("test"));
+		mainFrame.add(list.add("test")); 
 	}
 }
